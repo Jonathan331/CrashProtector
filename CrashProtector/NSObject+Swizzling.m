@@ -33,7 +33,7 @@
         [self swizzlingInstance:[NSNotificationCenter class]
                originalSelector:@selector(addObserver:selector:name:object:)
                 replaceSelector:@selector(upw_addObserver:selector:name:object:)];
-        
+
         [self swizzlingInstance:[self class]
                originalSelector:NSSelectorFromString(@"dealloc")
                 replaceSelector:@selector(upw_dealloc)];

@@ -24,7 +24,7 @@
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(jump) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-    
+
     UIButton *btn2  = [[UIButton alloc] initWithFrame:CGRectMake(30, 200, 100, 60)];
     [btn2 setTitle:@"Send" forState:UIControlStateNormal];
     [btn2 setTitleColor:[UIColor redColor] forState:UIControlStateNormal];

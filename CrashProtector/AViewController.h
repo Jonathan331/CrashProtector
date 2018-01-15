@@ -6,8 +6,8 @@
 //  Copyright © 2018年 Jonathan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface AViewController : ViewController
+@interface AViewController : UIViewController
 
 @end

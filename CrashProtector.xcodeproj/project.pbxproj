@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB320C5F200C408800EFCBF4 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB320C5E200C408800EFCBF4 /* AViewController.m */; };
+		AB320C62200C4AF000EFCBF4 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB320C61200C4AF000EFCBF4 /* AViewController.m */; };
 		AB5D4A042008470B001E3ABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D4A032008470B001E3ABC /* AppDelegate.m */; };
 		AB5D4A072008470B001E3ABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D4A062008470B001E3ABC /* ViewController.m */; };
-		AB5D4A0A2008470B001E3ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5D4A082008470B001E3ABC /* Main.storyboard */; };
 		AB5D4A0C2008470B001E3ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5D4A0B2008470B001E3ABC /* Assets.xcassets */; };
 		AB5D4A0F2008470B001E3ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5D4A0D2008470B001E3ABC /* LaunchScreen.storyboard */; };
 		AB5D4A122008470B001E3ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D4A112008470B001E3ABC /* main.m */; };
@@ -18,14 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB320C5D200C408800EFCBF4 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		AB320C5E200C408800EFCBF4 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		AB320C60200C4AF000EFCBF4 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		AB320C61200C4AF000EFCBF4 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		AB5D49FF2008470B001E3ABC /* CrashProtector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashProtector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5D4A022008470B001E3ABC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB5D4A032008470B001E3ABC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AB5D4A052008470B001E3ABC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AB5D4A062008470B001E3ABC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB5D4A092008470B001E3ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB5D4A0B2008470B001E3ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5D4A0E2008470B001E3ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5D4A102008470B001E3ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,11 +66,10 @@
 				AB5D4A032008470B001E3ABC /* AppDelegate.m */,
 				AB5D4A052008470B001E3ABC /* ViewController.h */,
 				AB5D4A062008470B001E3ABC /* ViewController.m */,
-				AB320C5D200C408800EFCBF4 /* AViewController.h */,
-				AB320C5E200C408800EFCBF4 /* AViewController.m */,
+				AB320C60200C4AF000EFCBF4 /* AViewController.h */,
+				AB320C61200C4AF000EFCBF4 /* AViewController.m */,
 				AB5D4A1B20084C1F001E3ABC /* NSObject+Swizzling.h */,
 				AB5D4A1C20084C1F001E3ABC /* NSObject+Swizzling.m */,
-				AB5D4A082008470B001E3ABC /* Main.storyboard */,
 				AB5D4A0B2008470B001E3ABC /* Assets.xcassets */,
 				AB5D4A0D2008470B001E3ABC /* LaunchScreen.storyboard */,
 				AB5D4A102008470B001E3ABC /* Info.plist */,
@@ -141,7 +138,6 @@
 			files = (
 				AB5D4A0F2008470B001E3ABC /* LaunchScreen.storyboard in Resources */,
 				AB5D4A0C2008470B001E3ABC /* Assets.xcassets in Resources */,
-				AB5D4A0A2008470B001E3ABC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB5D4A072008470B001E3ABC /* ViewController.m in Sources */,
-				AB320C5F200C408800EFCBF4 /* AViewController.m in Sources */,
+				AB320C62200C4AF000EFCBF4 /* AViewController.m in Sources */,
 				AB5D4A122008470B001E3ABC /* main.m in Sources */,
 				AB5D4A1D20084C1F001E3ABC /* NSObject+Swizzling.m in Sources */,
 				AB5D4A042008470B001E3ABC /* AppDelegate.m in Sources */,
@@ -163,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB5D4A082008470B001E3ABC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB5D4A092008470B001E3ABC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB5D4A0D2008470B001E3ABC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +280,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P3V7X37F97;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CrashProtector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unionpay.CrashProtector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,7 +296,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P3V7X37F97;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CrashProtector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unionpay.CrashProtector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
