@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "NSObject+Swizzling.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ViewController *vc = [[ViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     id obj = [NSObject new];
     [obj performSelector:@selector(haha)];
     
