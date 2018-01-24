@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(crashFunction) name:@"CrashNotification" object:nil];
+    
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(crashFunction) userInfo:nil repeats:YES];
 }
 
 - (void)crashFunction

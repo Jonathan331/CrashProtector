@@ -8,14 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface StubProxy : NSObject
-
-@property (nonatomic, copy) NSString *crashMsg;
-
-- (int)emptyFunction;
-
-@end
-
 @interface NSObject(Swizzling)
 
 @end
