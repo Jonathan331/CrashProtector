@@ -26,8 +26,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-//    id obj = [NSObject new];
-//    [obj performSelector:@selector(haha)];
+    id obj = [NSObject new];
+    [obj performSelector:@selector(haha)];
     
     
     return YES;
